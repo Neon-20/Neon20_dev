@@ -34,7 +34,7 @@ const stack: { name: string; icon: IconType }[] = [
 	{ name: "React", icon: SiReact },
 	{ name: "Next.js", icon: SiNextdotjs },
 	{ name: "Node.js", icon: SiNodedotjs },
-	{ name: "HonoJs", icon: Express },
+	{ name: "HonoJs", icon: SiExpress },
 	{ name: "Tailwind CSS", icon: SiTailwindcss },
 	{ name: "PostgreSQL", icon: SiPostgresql },
 	{ name: "Prisma", icon: SiPrisma },
