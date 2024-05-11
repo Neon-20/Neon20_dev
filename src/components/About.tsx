@@ -45,7 +45,7 @@ const Present = () => {
 				</Link>
 			</h2>
 			<p>
-				{`Currently I work as a Engineering Specialist at a Stealth Startup (TrustAuthX). In my free
+				{`Currently I work as a Engineering Specialist at a Stealth Startup. In my free
 				time I freelance & work on my own projects! I'm always looking for new
 				things to work on, so if you are hiring, feel free to reach-out.
 				`}
