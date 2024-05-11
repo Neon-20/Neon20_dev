@@ -76,8 +76,8 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
                 
                 >
 				<Link href="https://drive.google.com/file/d/1WhukrX367h4MN5vgDx5hnULwcttbGilD/view?usp=sharing" target="_blank">
-				<div className="flex mt-10 items-center justify-between bg-gray-200 rounded-xl p-2 tracking-wide text-muted-foreground dark:bg-transparent dark:bg-clip-text hover-effect cursor-pointer hover:animate-pulse">
-                Hiring? Check out My CV
+				<div className=" hidden md:block mt-10 items-center justify-between bg-gray-200 rounded-xl p-2 tracking-wide text-muted-foreground dark:bg-transparent dark:bg-clip-text hover-effect cursor-pointer hover:animate-pulse">
+                Hiring? Check out My CV.
                 </div>		
 				</Link>	
 				</motion.button>
