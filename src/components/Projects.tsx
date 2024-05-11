@@ -1,9 +1,11 @@
+"use client"
 import Link from "next/link";
 import { Badge } from "./ui/badge";
 import { FaHashtag } from "react-icons/fa";
 import { Button } from "./ui/button";
 import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { X, Globe } from "lucide-react";
+import {motion} from "framer-motion";
 import {
 	Card,
 	CardContent,
@@ -76,26 +78,44 @@ const Projects = () => {
 							<div className="flex items-center flex-wrap gap-2 ">
 								{project.href && (
 									<Link target="_blank" href={project.href}>
+										<motion.button
+                                        whileHover={{ scale: 1 }}
+                                        whileTap={{ scale: 0.9 }}
+                                        className="w-full"
+                                        >
 										<Button className="rounded-xl">
 											<Globe className="mr-2 size-4" />
 											Website
 										</Button>
+										</motion.button>
 									</Link>
 								)}
 								{project.repo && (
 									<Link target="_blank" href={project.repo}>
+										<motion.button
+                                        whileHover={{ scale: 1 }}
+                                        whileTap={{ scale: 0.9 }}
+                                        className="w-full"
+                                        >
 										<Button className="rounded-xl">
 											<GitHubLogoIcon className="mr-2 size-4" />
 											Repo
 										</Button>
+										</motion.button>
 									</Link>
 								)}
 								{project.X && (
 									<Link target="_blank" href={project.X}>
+										<motion.button
+                                        whileHover={{ scale: 1 }}
+                                        whileTap={{ scale: 0.9 }}
+                                        className="w-full"
+                                        >
 										<Button className="rounded-xl">
 											<X className="mr-2 size-4" />
 											View on X
 										</Button>
+										</motion.button>
 									</Link>
 								)}
 							</div>
