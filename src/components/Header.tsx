@@ -1,7 +1,10 @@
+"use client"
 import Image from "next/image";
 import { Separator } from "./ui/separator";
 import Text3D from "./Text3D";
 import { cn } from "@/lib/utils";
+import {motion} from "framer-motion";
+import Link from "next/link";
 
 const Header = ({ children }: { children?: React.ReactNode }) => {
 	return (
@@ -67,8 +70,18 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
 					</div>
 				</div>
 				<div className="select-none">{children}</div>
-			</div>
-
+				<motion.button
+                whileHover={{ scale: 1 }}
+                whileTap={{ scale: 0.9 }}
+                
+                >
+				<Link href="https://drive.google.com/file/d/1WhukrX367h4MN5vgDx5hnULwcttbGilD/view?usp=sharing" target="_blank">
+				<div className="flex mt-10 items-center justify-between bg-gray-200 rounded-xl p-2 tracking-wide text-muted-foreground dark:bg-transparent dark:bg-clip-text hover-effect cursor-pointer hover:animate-pulse">
+                Hiring? Check out My CV
+                </div>		
+				</Link>	
+				</motion.button>
+			    </div>
 			<Separator />
 		</div>
 	);
