@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/ui/theme-provider";
 import Navbar from "@/components/Navbar";
 import { Analytics } from "@vercel/analytics/react"
+import Head from "next/head";
 
 const font = Poppins({
     subsets:["latin"],
@@ -22,6 +23,13 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en" className="scroll-smooth" suppressHydrationWarning>
+			<Head>
+        <script
+            src="https://beamanalytics.b-cdn.net/beam.min.js"
+            data-token="8efceb49-2776-47f5-bb58-33fcc018acc9"
+            async
+        ></script>
+           </Head>
 			<body className={(font.className, "p-3 relative")}>
 				<Background />
 				<ThemeProvider
