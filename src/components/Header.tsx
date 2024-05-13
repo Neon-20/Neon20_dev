@@ -5,6 +5,8 @@ import Text3D from "./Text3D";
 import { cn } from "@/lib/utils";
 import {motion} from "framer-motion";
 import Link from "next/link";
+import VapiAssistant from "@/components/VapiAssistant";
+
 
 const Header = ({ children }: { children?: React.ReactNode }) => {
 	return (
@@ -69,19 +71,22 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
 						<HoverMe className="dark:invert hidden md:block absolute h-36 w-full object-cover -top-8 end-0 -mr-32 opacity-80" />
 					</div>
 				</div>
-				<div className="select-none">{children}</div>
+				<div className="select-none">{children}
+				</div>
+				<div className="relative hidden md:block">
+					<VapiAssistant/>
 				<motion.button
                 whileHover={{ scale: 1 }}
                 whileTap={{ scale: 0.9 }}
-                
                 >
 				<Link href="https://drive.google.com/file/d/19rf_s52K7gfdpM_bHNoG97UhziBbx6Oo/view?usp=sharing" target="_blank">
-				<div className=" hidden md:block mt-10 items-center justify-between bg-gray-200 rounded-xl p-2 tracking-wide text-muted-foreground dark:bg-transparent dark:bg-clip-text hover-effect cursor-pointer hover:animate-pulse">
+				<div className="absolute hidden md:block mt-2 items-center justify-between bg-gray-200 rounded-xl p-2 tracking-wide text-muted-foreground dark:bg-transparent dark:bg-clip-text hover-effect cursor-pointer hover:animate-pulse">
                 Hiring? Check out My CV.
                 </div>		
 				</Link>	
 				</motion.button>
-			    </div>
+				</div>
+				</div>
 			<Separator />
 		</div>
 	);
