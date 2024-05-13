@@ -29,7 +29,7 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
 							<p className="text-muted-foreground text-lg leading-none font-medium">
 								Full Stack Developer
 								<br />
-								<span className="text-sm font-medium">UI / UX Designer</span>
+								<span className="text-sm font-medium">Software Engineer</span>
 							</p>
 						</div>
 						<div className="hidden md:block">
@@ -40,13 +40,13 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
 								containerClassName="rounded-none border-none"
 								text={
 									<div>
-										<h1 className="text-xl leading-normal font-semibold">
+										<h1 className="text-2xl leading-normal font-semibold">
 											Pranav Rajveer
 										</h1>
 										<p className="text-muted-foreground text-lg leading-none font-medium">
 										    Software Engineer
 											<br />
-											<span className="text-sm font-medium">
+											<span className="text-base font-medium">
 											Full-Stack Dev
 											</span>
 										</p>
@@ -54,13 +54,13 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
 								}
 								secondaryText={
 									<div>
-										<h1 className="text-xl leading-normal font-semibold">
+										<h1 className="text-2xl leading-normal font-semibold">
 											Pranav Rajveer
 										</h1>
 										<p className="text-muted-foreground text-lg leading-none font-medium">
 											Problem Solver
 											<br />
-											<span className="text-sm font-medium">
+											<span className="text-base font-medium">
 												Humble Guy ❤️
 											</span>
 										</p>
