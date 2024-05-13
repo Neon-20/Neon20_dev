@@ -1,6 +1,6 @@
 "use client"
 import Vapi from "@vapi-ai/web";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { Mic } from "lucide-react";
 import { HoverBorderGradient } from "./hover-border";
 
@@ -20,7 +20,7 @@ export default function VapiAssistant() {
     vapi.stop();
     console.log("stop is triggered")
   };
-
+  //@ts-ignore
   useEffect(() => {
     vapi.on("call-start", () => setCallStatus("active"));
     vapi.on("call-end", () => setCallStatus('inactive'));

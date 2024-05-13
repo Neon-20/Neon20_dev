@@ -73,7 +73,7 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
 				</div>
 				<div className="select-none">{children}
 				</div>
-				<div className="relative hidden md:block">
+				<div className="relative hidden md:block cursor-pointer">
 					<VapiAssistant/>
 				<motion.button
                 whileHover={{ scale: 1 }}
