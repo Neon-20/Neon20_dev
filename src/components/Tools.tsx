@@ -9,7 +9,7 @@ const tools: { title: string; description: string; href: string }[] = [
 	},
 	{
 		title: "FlitchCoin",
-		description: "Worked as Product Engineer Intern (2022-23')",
+		description: "Worked as Product Engineer (2022-23')",
 		href: "https://flitchcoin.com",
 	},
 	{
