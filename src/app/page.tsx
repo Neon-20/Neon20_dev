@@ -7,6 +7,7 @@ import Tools from "@/components/Tools";
 import { blogPosts } from "@/lib/utils";
 import RecentDot from "@/components/RecentDot";
 import DrawerNavPreview from "./dotdotdot/_components/drawer-nav-preview";
+import Achievements from "@/components/achievements";
 
 const posts = blogPosts.reverse();
 
@@ -19,6 +20,7 @@ export default function Home() {
 			{/* <RecentDot dot={<DrawerNavPreview />} /> */}
 			<Projects />
 			<Tools />
+			<Achievements/>
 			<Connect />
 		</>
 	);
