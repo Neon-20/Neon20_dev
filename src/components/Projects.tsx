@@ -46,6 +46,13 @@ const projects: {
 		stack: ["Next.js", "Tailwind CSS", "FFMPeg", "Wasm","Shadcn"],
 		repo: "https://github.com/Neon-20/FileMagnet-File-Converter",
 	},
+	{
+		href: "https://developersden.pranavrajveer.com/",
+		title: "DevelopersDen - Add resources on the fly",
+		description: "DevelopersDen is an open source collection of quality resources for developers, designers & backend nerds.",
+		stack: ["Next.js", "Tailwind CSS", "SupaBase","Shadcn"],
+		repo: "https://github.com/Neon-20/developersDen",
+	},
 ];
 
 const Projects = () => {
