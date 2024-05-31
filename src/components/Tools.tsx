@@ -38,7 +38,7 @@ const Tools = () => {
 					<Link
 						target="_blank"
 						key={tool.title}
-						className="text-muted-foreground hover:text-foreground border-b border-border/0 hover:border-foreground transition-colors w-fit"
+						className="text-muted-foreground hover:animate-pulse hover:text-foreground border-b border-border/0 hover:border-foreground transition-colors w-fit"
 						href={tool.href}
 					>
 						{tool.title} - {tool.description}
