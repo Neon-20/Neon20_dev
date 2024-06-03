@@ -3,7 +3,12 @@ import { FaHashtag } from "react-icons/fa";
 
 const tools: { title: string; description: string; href: string }[] = [
 	{
-		title: "Stealth Startup",
+		title: "Tour YC(S21)",
+		description: "Working as a Founding Engineer to scale Voice AI(24' - Present)",
+		href: "https://trustauthx.com",
+	},
+	{
+		title: "TrustAuthX",
 		description: "Worked as a Software Engineer (2023-24 April)",
 		href: "https://trustauthx.com",
 	},

@@ -17,7 +17,7 @@ const About = () => {
 					</Link>
 				</h2>
 				<p>
-					{`I'm Pranav, a Software Engineer who's all about turning wild ideas into kick-ass web apps. 
+					{`I'm Pranav, a Founding Engineer who's all about turning wild ideas into kick-ass web apps. 
 					When I'm not submerged in code-commits, you can catch me dive-deep in a page-turner, geeking out over 
 					the latest Netflix obsession, or exploring the great outdoors with my dog Brewsky. 
 					Let's team up and build some exceptional products.`}
@@ -45,11 +45,9 @@ const Present = () => {
 				</Link>
 			</h2>
 			<p>
-				{`Currently I work as a Engineering Specialist at a Stealth Startup. In my free
-				time I freelance & work on my own projects! I'm always looking for new
-				things to work on, so if you are hiring, feel free to reach-out.
-				`}
-
+				Currently I work as a Founding Engineer at <Link href="https://www.linkedin.com/company/tour-me-now/mycompany/" className="hover-effect cursor-pointer hover:animate-pulse">Tour YC(S21).&nbsp;</Link> In my free
+				time I freelance & work on my own projects! I&apos;m always looking for new
+				things to work on, so if you are hiring, feel free to reach-out.&nbsp;
 				<Link
 					className="text-muted-foreground hover:text-foreground border-b border-muted-foreground hover:border-foreground transition-colors"
 					target="_blank"
