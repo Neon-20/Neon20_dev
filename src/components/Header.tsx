@@ -79,7 +79,7 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
                 whileHover={{ scale: 1 }}
                 whileTap={{ scale: 0.9 }}
                 >
-				<Link href="https://drive.google.com/file/d/1sTGR662C7Sj4SoCgjn9YZWEkfqeGcHrt/view?usp=sharing" target="_blank">
+				<Link href="https://drive.google.com/file/d/1_aEF8U-rz8vlWmvLz3oRgLieXXTYaV97/view?usp=sharing" target="_blank">
 				<div className="absolute hidden md:block mt-2 items-center justify-between bg-gray-200 rounded-xl p-2 tracking-wide text-muted-foreground dark:bg-transparent dark:bg-clip-text hover-effect cursor-pointer hover:animate-pulse">
                 Hiring? Check out My CV.
                 </div>		

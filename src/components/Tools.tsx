@@ -5,7 +5,7 @@ const tools: { title: string; description: string; href: string }[] = [
 	{
 		title: "Tour YC(S21)",
 		description: "Working as a Founding Engineer to scale Voice AI(24' - Present)",
-		href: "https://trustauthx.com",
+		href: "https://www.linkedin.com/company/tour-me-now/mycompany/",
 	},
 	{
 		title: "TrustAuthX",
