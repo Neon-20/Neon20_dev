@@ -8,6 +8,7 @@ import { blogPosts } from "@/lib/utils";
 import RecentDot from "@/components/RecentDot";
 import DrawerNavPreview from "./dotdotdot/_components/drawer-nav-preview";
 import Achievements from "@/components/achievements";
+import Calcom from "@/components/calcom";
 
 const posts = blogPosts.reverse();
 
@@ -16,6 +17,7 @@ export default function Home() {
 		<>
 			<Header />
 			<About />
+			<Calcom/>
 			<Stack />
 			{/* <RecentDot dot={<DrawerNavPreview />} /> */}
 			<Projects />
