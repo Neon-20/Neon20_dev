@@ -86,7 +86,7 @@ const Projects = () => {
 								{project.href && (
 									<Link target="_blank" href={project.href}>
 										<motion.button
-                                        whileHover={{ scale: 1 }}
+                                        whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                         className="w-full"
                                         >
@@ -100,7 +100,7 @@ const Projects = () => {
 								{project.repo && (
 									<Link target="_blank" href={project.repo}>
 										<motion.button
-                                        whileHover={{ scale: 1 }}
+                                        whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                         className="w-full"
                                         >
@@ -114,7 +114,7 @@ const Projects = () => {
 								{project.X && (
 									<Link target="_blank" href={project.X}>
 										<motion.button
-                                        whileHover={{ scale: 1 }}
+                                        whileHover={{ scale: 1.1 }}
                                         whileTap={{ scale: 0.9 }}
                                         className="w-full"
                                         >
