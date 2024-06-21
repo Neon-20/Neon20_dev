@@ -47,7 +47,7 @@ const Header = ({ children }: { children?: React.ReactNode }) => {
 										    Software Engineer
 											<br />
 											<span className="text-base font-medium">
-											Full-Stack Dev
+											Founding Engineer
 											</span>
 										</p>
 									</div>
