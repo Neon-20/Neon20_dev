@@ -36,11 +36,9 @@ export default function RootLayout({
 					disableTransitionOnChange
 				>
 			<div className="absolute top-0 z-[-2] h-screen w-screen bg-background bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(150,19,10,0.5),rgba(255,255,255,0))]" />
-			<div className = "duration-500 animate-in animate fade-in-5 slide-in-from-bottom-2.5">
 					<main className="max-w-2xl space-y-20 mx-auto py-24 pt-12 px-1">
 						{children}
 					</main>
-			</div>
 					{/* <Navbar /> */}
 				</ThemeProvider>
 			</body>
