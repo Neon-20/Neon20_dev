@@ -11,5 +11,8 @@ export default function Calcom(){
 		cal("ui", {"theme":"auto","styles":{"branding":{"brandColor":"#E32A0C"}},"hideEventTypeDetails":false,"layout":"month_view"});
 	  })();
 	}, [])
+	return(
+		<div/>
+	)
   };
   
