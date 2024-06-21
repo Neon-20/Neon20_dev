@@ -3,23 +3,28 @@ import { FaHashtag } from "react-icons/fa";
 
 const tools: { title: string; description: string; href: string }[] = [
 	{
+		title: "AugmentCode",
+		description: "AI Software Engineer on augmentChat. (Part-Time)",
+		href: "https://www.linkedin.com/company/augmentinc/mycompany/",
+	},
+	{
 		title: "Tour YC(S21)",
-		description: "Working as a Founding Engineer to scale Voice AI(24' - Present)",
+		description: "Founding Engineer to scale Voice AI (24' - Present)",
 		href: "https://www.linkedin.com/company/tour-me-now/mycompany/",
 	},
 	{
 		title: "TrustAuthX",
-		description: "Worked as a Software Engineer (2023-24 April)",
+		description: "Software/Founding Engineer (2023-24 April)",
 		href: "https://trustauthx.com",
 	},
 	{
 		title: "FlitchCoin",
-		description: "Worked as Product Engineer (2022-23')",
+		description: "Founder (2022-23')",
 		href: "https://flitchcoin.com",
 	},
 	{
-		title: "CodeChef President",
-		description: "Worked as Campus Chapter President (2021-22')",
+		title: "CodeChef",
+		description: "Campus Chapter President (2021-22')",
 		href: "https://www.linkedin.com/in/pranav-rajveer/details/experience/",
 	},
 ];

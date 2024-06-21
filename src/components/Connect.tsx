@@ -28,7 +28,7 @@ const Connect = () => {
 						<ArrowUpRight className="h-4 w-4 ml-1" />
 					</Link>
 				</div>
-				<div className="flex gap-4">
+				{/* <div className="flex gap-4">
 					<p className="max-w-[6ch] w-full">Calendly</p>
 					<Link
 						className="flex items-center decoration-1 text-muted-foreground decoration-muted-foreground hover:text-foreground hover:decoration-foreground transition-colors border-b border-muted-foreground/0 hover:border-foreground "
@@ -38,7 +38,7 @@ const Connect = () => {
 						<p className="truncate">Schedule a Call.</p>
 						<ArrowUpRight className="h-4 w-4 ml-1" />
 					</Link>
-				</div>
+				</div> */}
 				<div className="flex gap-4">
 					<p className="max-w-[6ch] w-full">Github</p>
 					<Link
