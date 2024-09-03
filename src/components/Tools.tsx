@@ -3,13 +3,18 @@ import { FaHashtag } from "react-icons/fa";
 
 const tools: { title: string; description: string; href: string }[] = [
 	{
+		title: "AlterDomus",
+		description: "AI FullStack Engineer (July 24' - Present)",
+		href: "https://www.linkedin.com/company/alter-domus/",
+	},
+	{
 		title: "AugmentCode",
-		description: "AI Software Engineer on augmentChat. (Part-Time)",
+		description: "AI Engineer. (June 24' - Present)",
 		href: "https://www.linkedin.com/company/augmentinc/mycompany/",
 	},
 	{
 		title: "Tour YC(S21)",
-		description: "Founding Engineer to scale Voice AI (24' - Present)",
+		description: "Founding Engineer to scale Voice AI (May 24' - July 24')",
 		href: "https://www.linkedin.com/company/tour-me-now/mycompany/",
 	},
 	{
