@@ -8,9 +8,9 @@ const tools: { title: string; description: string; href: string }[] = [
 		href: "https://www.linkedin.com/company/alter-domus/",
 	},
 	{
-		title: "AugmentCode",
-		description: "AI Engineer.",
-		href: "https://www.linkedin.com/company/augmentinc/mycompany/",
+		title: "Mercor",
+		description: "AI Software Engineer.",
+		href: "https://www.linkedin.com/company/mercor-ai/posts/?feedView=all",
 	},
 	{
 		title: "Tour YC(S21)",
