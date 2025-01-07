@@ -4,12 +4,12 @@ import { FaHashtag } from "react-icons/fa";
 const tools: { title: string; description: string; href: string }[] = [
 	{
 		title: "AlterDomus",
-		description: "AI FullStack Engineer",
+		description: "Software Engineer (AI-Automation)",
 		href: "https://www.linkedin.com/company/alter-domus/",
 	},
 	{
-		title: "Mercor",
-		description: "AI Software Engineer.",
+		title: "Mercor Intelligence",
+		description: "Software Intelligence Engineer.",
 		href: "https://www.linkedin.com/company/mercor-ai/posts/?feedView=all",
 	},
 	{
